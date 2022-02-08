@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <form action="web.php" method="get"> 
+    <h1>Accede a tu Area Clientes</h1>
+
+    <h3>Elige tu documento</h3>
+    
+        
+            <p>
+                <input class="naranja" type="radio" name="DNI" value="DNI"> DNI o Tarjeta de residencia 
+                <br>
+                <input class="naranja" type="radio" name="Pasaporte" value="Pasaporte"> Pasaporte
+            </p>
+
+    <h3>Numero de documento</h3>
+            <p>
+                <input type="text" name="N.doc" id="N.doc" placeholder="DNI, Tarjeta o Pasaporte">
+
+            </p>
+    
+    <h3>Fecha de nacimiento</h3>
+            <p>
+                <input type="date" name="nacimiento" id="nacimiento">
+
+            </p>
+        <h4><input type="checkbox"> Recordar</h4> 
+
+            <input type="submit" value="Entrar">
+    
+<h4>> <a href="https://es.wikipedia.org/wiki/Documento_de_identidad_electr%C3%B3nico">Accede con el DNI digital</a></h4>
+
+<h4> > <a href="https://es.wikipedia.org/wiki/Seguridad">Mas informacion sobre seguridad</a> </h4>
+        </form>
+    
+    
+
+</section>
+</body>
+</html>
