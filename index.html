@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
+    <section class="primero">
         <form action="web.php" method="get"> 
     <h1>Accede a tu Area Clientes</h1>
 
@@ -41,7 +41,66 @@
 <h4> > <a href="https://es.wikipedia.org/wiki/Seguridad">Mas informacion sobre seguridad</a> </h4>
         </form>
     
-    
+    <hr>
+    <br>
+    <br>
+</section>
+<section class="segundo">
+<form action="web2.php" method="get">
+<h1>Empieza creando tu usuario</h1>
+<p>
+<input class="nombre" type="text"  name="nombre" id="nombre" placeholder="Nombre (como sale en el DNI)" >
+
+</p>
+<p>
+    <input type="text" placeholder="1º apellido" name="apellido1" id="apellido1"> <input type="text" placeholder="2º apellido" name="apellido2" id="apellido2" >
+
+</p>
+<select name="Documentos" id="Documentos">
+<option value="0">Tipos de Documento</option>
+<option value="DNI">DNI</option>
+<option value="NIF">NIF</option>
+<option value="CERT.AEAT">CERT.AEAT</option>
+</select>
+    <input type="number" placeholder="Numero de documento">
+<p>
+    <input type="tel" name="Telefono" id="Telefono" placeholder="Movil">
+    <input type="email" name="email" id="email" placeholder="Email"> 
+</p>
+</form>
+<br>
+<hr>
+<br>
+<section class="ultimo"></section>
+<form action="web3.php" method="get">
+<h1>¿Eres Nuevo?</h1>
+<h4>Registrate para guardar tu informacion y
+    hacer tus pedidos de forma mas facil
+</h4>
+<p>
+    Email <br>
+    <input type="email" name="email" placeholder="Introduce tu email">
+</p>
+
+<p>
+    Telefono <br>
+    <input type="tel" name="telefono" placeholder="Introduce tu telefono">
+</p>
+
+<p>
+    Contraseña <br>
+    <input type="password" name="contraseña" placeholder="Introduce tu contraseña">
+</p>
+
+<p>
+    Confirma contraseña <br>
+    <input type="password" name="confirmacion" placeholder="Confirma tu contraseña">
+</p>
+<p> <input type="checkbox" name="Politicas" id="Politicas">He leido y accepto las <a href="https://www.pizzahut.es/info/aviso-legal">Politicas de Privacidad</a>.</p>
+<p> <input type="checkbox" name="Anuncios" id="Anuncios" >Si, acepto recibir comunicaciones comerciales <br>y ofertas personalizadas segun mi perfil.</p>
+
+<input  class="a" type="submit" value="Crea tu cuenta">
+</form>
 
 </section>
 </body>
